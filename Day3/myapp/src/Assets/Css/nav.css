@@ -1,25 +1,70 @@
 
- .navbar{
-    padding:10px;
-    background: #f12711;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+* {
+    margin: 0;
+    padding: 0;
+    
 }
-.navbar ul{
+
+
+.navbar {
+    padding: 6px;
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-between; /* Adjusted to spread items evenly */
+    align-items: center; /* Vertically center items */
+}
+
+
+.navbar ul {
     list-style: none;
     display: flex;
-    margin:0;
-    padding:0;
-    justify-content: right;
+    margin: 0;
+    padding: 0;
 }
-.navbar a{
+
+
+.navbar a {
     text-decoration: none;
-    color:white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
-    padding:10px;
+    font-family: cursive;
+    padding: 20px;
 }
-.navbar h1{
-    justify-content: left;
+
+.navbar h1 {
+    margin: 0; 
+    font-family: cursive;
 }
+
+
+.navbar a:hover {
+    color: rgb(250, 250, 250);
+    transform: scale(1.2);
+}
+.logo{
+    width:70px;
+    height:39px;
+    margin-left: 12.3rem;
+    margin-top: 9px;
+}
+.btn{
+    background-color:#fefdfe;
+    font-family: cursive;
+    color:rgb(8, 8, 8);
+    text-decoration:none;
+    border:2px solid transparent;
+    font-weight:bold;
+     padding:5px;
+    border-radius:40px;
+    transition:transform .4s;
+    font-size: 18px;
+    margin-right: 1px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    
+    color: rgb(238, 66, 18);
+  }

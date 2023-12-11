@@ -2,4 +2,18 @@
 .adopt{
     width:80rem;
     height:30rem;
+    border-bottom: 0.5rem solid rgb(252, 123, 31);
+}
+.quote-container {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding-top: 10rem;
+    padding-right: 30rem;
+    color: white;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px;
+    text-decoration:solid;
+    color: black;
+    font-size:1.5rem;
 }

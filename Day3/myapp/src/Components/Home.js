@@ -6,6 +6,9 @@ const Home=()=>
         
         <div>
             <img className="adopt" src = {dog}/>
+            <div className="quote-container">
+            <p>Adopt a forever friend today!</p>
+            </div>
         </div>
         
     )
