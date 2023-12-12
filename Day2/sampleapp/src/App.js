@@ -5,7 +5,7 @@ function App() {
     return (
         <div>
             <Nav />
-            <login/>
+        
 
             <div class="register">
                 <form onsubmit="register()">
