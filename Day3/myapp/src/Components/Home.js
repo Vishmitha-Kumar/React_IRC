@@ -8,6 +8,7 @@ const Home=()=>
             <img className="adopt" src = {dog}/>
             <div className="quote-container">
             <p>Adopt a forever friend today!</p>
+            <h2>Browse pets from our network of over 11,500 shelters and rescues.</h2>
             </div>
         </div>
         
