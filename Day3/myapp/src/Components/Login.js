@@ -37,6 +37,7 @@ function Login() {
       <div className="wrapper">
         <div className="register">
           <form onSubmit={handleSubmit}>
+            <h3>The PetNest</h3>
             <h3>Login</h3>
             <input
               type="text"
