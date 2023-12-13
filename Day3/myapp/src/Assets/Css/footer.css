@@ -47,8 +47,8 @@
   left: 0;
   width: 100%;
   margin: 0;
-  background: #c21500;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+  background: #c21500;  
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  
   background: linear-gradient(to right, #ffc500, #c21500); 
   color: white;
   padding: 10px;

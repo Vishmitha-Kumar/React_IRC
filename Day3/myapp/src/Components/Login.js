@@ -1,36 +1,69 @@
+import React, { useState } from 'react';
+import Nav from './Nav';
+import '../Assets/Css/nav.css';
+import {Link} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
-import Nav from './Nav'
-import '../Assets/Css/nav.css'
 function Login() {
-    return (
-        <div>
-            <Nav/>
-            <div class="wrapper">
-                
-            <div class="register">
-                <form>
 
-                    <h3>Login</h3>
+  const navH = useNavigate();
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
-                    <input type="text" id="user" placeholder="Username" class="auth-input" required/>
+  const handleUsernameChange = (e) => {
+    setUsername(e.target.value);
+  };
 
-                        <input type="email" placeholder="Email" class="auth-input" required/>
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+  };
 
-                            <input type="password" id="pwd" placeholder="Password" class="auth-input" required/>
-                                <input type="submit" value="Login" class="auth-btn"/>
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
+   
+    if (username === 'Isai' && password === '0706') {
+      // alert('Welcome!');
+      navH('/home')
+      
+    } else {
+      alert('Invalid credentials. Please try again.');
+    }
+  };
 
-                                </form>
-                            </div>
-                        </div>
-                        </div>
-                        )
+  return (
+    <div>
+      {/* <Nav /> */}
+      <div className="wrapper">
+        <div className="register">
+          <form onSubmit={handleSubmit}>
+            <h3>Login</h3>
+            <input
+              type="text"
+              id="user"
+              placeholder="Username"
+              className="auth-input"
+              required
+              value={username}
+              onChange={handleUsernameChange}
+            />
+            <input
+              type="password"
+              id="pwd"
+              placeholder="Password"
+              className="auth-input"
+              required
+              value={password}
+              onChange={handlePasswordChange}
+            />
+            
+            <input type="submit" value="Login" className="auth-btn" />
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  );
 }
-                        export default Login
 
-
-
-
-
-
-
+export default Login;
