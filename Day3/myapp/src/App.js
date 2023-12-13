@@ -8,10 +8,6 @@ import './Assets/Css/register.css'
 import './Assets/Css/overlap.css'
 
 import Home from './Components/Home'
-// import Ovalcard from './Components/Ovalcard'
-// import About from './Components/About'
-// import Overlap from './Components/Overlap'
-// import Footer from './Components/Footer'
 import Login from './Components/Login'
 import Register from './Components/Register'
 

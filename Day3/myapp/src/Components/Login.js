@@ -23,7 +23,7 @@ function Login() {
 
    
     if (username === 'Isai' && password === '0706') {
-      // alert('Welcome!');
+      alert('Welcome!');
       navH('/home')
       
     } else {
@@ -37,7 +37,7 @@ function Login() {
       <div className="wrapper">
         <div className="register">
           <form onSubmit={handleSubmit}>
-            <h3>The PetNest</h3>
+            <h1>The PetNest</h1>
             <h3>Login</h3>
             <input
               type="text"
