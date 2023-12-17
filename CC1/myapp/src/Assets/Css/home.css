@@ -3,13 +3,14 @@
     width:80rem;
     height:30rem;
     border-bottom: 0.5rem solid rgb(252, 123, 31);
+    margin-left: 80px;
 }
 .quote-container p{
     position: absolute;
     top: 50%;
     left: 40%;
     padding-top: 10rem;
-    padding-right: 30rem;
+    padding-left: 5rem;
     color: white;
     font-family:Impact, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px;
@@ -20,7 +21,7 @@
 .quote-container h2{
     position: absolute;
     padding-top: 35rem;
-    padding-left: 17rem;
+    padding-left: 20rem;
     color: white;
     font-family:cursive;
     text-shadow: 2px;

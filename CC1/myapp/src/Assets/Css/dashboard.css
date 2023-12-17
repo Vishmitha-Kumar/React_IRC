@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+.viewport {
+  padding-left: 250px;
+  transition: all 0.5s ease;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+.sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background-color: #141515;
+  transition: all 0.5s ease;
+}
+
+.sidebar header {
+  background: #c21500;
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+  background: linear-gradient(to right, #ffc500, #c21500);
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar header a:hover {
+  color: #fff;
+}
+
+.sidebar .navb a {
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+.sidebar .navb a:hover {
+  background: none;
+  color: #ECEFF1;
+}
+
+.sidebar .navb a i {
+  margin-right: 16px;
+}
+
+.db {
+  text-decoration: none;
+  list-style: none;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.navb li {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  font-family: cursive;
+  font-size: 20px;
+  color: #c21500;
+  
+}
+
+.navb .H {
+  text-decoration: none;
+  color: #c21500;
+  font-style: none;
+  padding-left: 60px;
+}
+.navb li:hover{
+    color:#ECEFF1
+}

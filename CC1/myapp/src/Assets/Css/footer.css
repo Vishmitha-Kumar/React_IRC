@@ -8,6 +8,7 @@
   font-weight: 600;
   height: 50px;
   margin-top: 2rem;
+  margin-left: 10rem;
 }
 
 .footer-items {
@@ -18,6 +19,7 @@
   background: #c21500;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffc500, #c21500);
+  margin-left: 6rem;
 }
 
 .footer-items h3 {

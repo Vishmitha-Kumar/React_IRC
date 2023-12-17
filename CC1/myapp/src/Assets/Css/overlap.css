@@ -1,7 +1,7 @@
 .flip {
     position: relative;
     display: inline-block;
-    /* margin-right: 2px; */
+    
     margin-bottom: 2em;
     width: 165px;
     margin-left:6rem;
@@ -97,12 +97,22 @@
         color: #0c0c0c;
     }
     .back h2{
-        padding:15px;
+        padding-top:15px;
+    }
+    .back p{
+        padding-top:15px;
     }
 }
 .change h2{
      padding-top: 50px;
-     padding-left:30rem;
+     padding-left:35rem;
      font-family: cursive;
      font-size: 30px;
+}
+.move{
+    margin-left: 17rem;
+}
+.front p{
+    color:rgb(5, 3, 0);
+    padding-left:10px;
 }

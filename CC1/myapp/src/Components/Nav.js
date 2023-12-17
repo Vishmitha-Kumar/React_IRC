@@ -1,25 +1,28 @@
 import logo from '../Assets/Images/logo.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { Home } from 'lucide-react';
+import { UsersRound } from 'lucide-react';
+import { LogOut } from 'lucide-react';
 
 function Nav() {
     return (
         <>
-        <div className="navbar">
-                    <h1>The PetNest</h1>
-                    <img className="logo" src = {logo}/>
-            <ul>
-                <li>
-                    <Link to = '/home'>
-                        Home
+            <div className="navbar">
+               
+                <ul>
+                    <li>
+                    <Link to='/register' className='nav'>
+                        <UsersRound />
                     </Link>
-                    <a href ="#">Adopt me</a>
-                    <a href ="#">Pet Shop</a>
-                    <Link to = '/register'>
-                   Register
-                   </Link>
-                </li>
-            </ul>
-        </div>
+                    </li>
+                    <li>
+                        <Link to='/login' className='nav'>
+                        <LogOut/>
+                        </Link>
+                    </li>
+                
+                </ul>
+            </div>
         </>
     )
 }

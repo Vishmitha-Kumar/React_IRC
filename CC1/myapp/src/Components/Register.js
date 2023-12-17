@@ -113,7 +113,11 @@ function Register() {
               onChange={handleAddressChange}
             />
             <input type="submit" value="Register" className="auth-btn" />
+            <Link to='/home'>
+               <h4 style={{color:'black',textDecoration:'none',listStyle:'none'}}>Back</h4>
+               </Link>
           </form>
+          
         </div>
       </div>
     </div>
