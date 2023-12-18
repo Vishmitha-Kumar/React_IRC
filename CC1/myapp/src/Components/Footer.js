@@ -8,38 +8,37 @@ function Footer() {
         <div class="footer-items">
           <ul>
             <h3>ThePetNest</h3>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Online Pet Shop</a></li>
-            <li><a href="#">Report Animal Abuse</a></li>
+            <li>About us</li>
+            <li>Career</li>
+            <li>Online Pet Shop</li>
+            <li>Report Animal Abuse</li>
           </ul>
           <ul>
             <h3>Home Services</h3>
-            <li><a href="#">Pet Grooming</a></li>
-            <li><a href="#">Dog Training</a></li>
-            <li><a href="#">Pet Relocation</a></li>
-            <li><a href="#">Home Vet Visit</a></li>
-            <li><a href="#">Pet Insurance</a></li>
-            <li><a href="#">Dog Training Course</a></li>
+            <li>Pet Grooming</li>
+            <li>Dog Training</li>
+            <li>Pet Relocation</li>
+            <li>Home Vet Visit</li>
+            <li>Pet Insurance</li>
+            <li>Dog Training Course</li>
           </ul>
           <ul>
-            <h3></h3>
-            <li><a href="#">Partner</a></li>
-            <li><a href="#">Become a Groomer</a></li>
-            <li><a href="#">Become a Trainer</a></li>
-            <li><a href="#">Become a Dog Walker</a></li>
-            <li><a href="#">Become a Pet Boarder</a></li>
-            <li><a href="#">Pet Grooming Course</a></li>
-            <li><a href="#">Pet Store Franchise</a></li>
+            <h3>Partner</h3>
+            <li>Become a Groomer</li>
+            <li>Become a Trainer</li>
+            <li>Become a Dog Walker</li>
+            <li>Become a Pet Boarder</li>
+            <li>Pet Grooming Course</li>
+            <li>Pet Store Franchise</li>
 
           </ul>
           <ul>
             <h3>Policy</h3>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Refund Policy</a></li>
-            <li><a href="#">Cancellation Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Help</a></li>
+            <li>Privacy Policy</li>
+            <li>Refund Policy</li>
+            <li>Cancellation Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Help</li>
           </ul>
         </div>
       </footer>

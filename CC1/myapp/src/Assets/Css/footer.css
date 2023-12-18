@@ -20,6 +20,8 @@
   background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffc500, #c21500);
   margin-left: 6rem;
+  color:#ddd;
+  padding-left:30px;
 }
 
 .footer-items h3 {

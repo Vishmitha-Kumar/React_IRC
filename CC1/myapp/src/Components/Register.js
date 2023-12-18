@@ -3,6 +3,8 @@ import Nav from './Nav';
 import '../Assets/Css/nav.css';
 import {Link} from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 
 function Register() {
 
@@ -51,7 +53,16 @@ function Register() {
       navJ('/home')
       
     } else {
-      alert('Passwords do not match. Please try again.');
+      toast.error('Invaild Username (or) Password', {
+        position: "bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+        });
     }
   };
 
@@ -120,6 +131,18 @@ function Register() {
           
         </div>
       </div>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
     </div>
   );
 }

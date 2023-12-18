@@ -11,6 +11,8 @@
   margin-right: 0;
 }
 
+
+
 .sidebar {
   z-index: 1000;
   position: fixed;
@@ -30,34 +32,26 @@
   font-size: 20px;
   line-height: 52px;
   text-align: center;
-}
-
-.sidebar header a {
-  color: #fff;
+  color: #000000;
   display: block;
   text-decoration: none;
 }
 
-.sidebar header a:hover {
-  color: #fff;
-}
 
-.sidebar .navb a {
-  background: none;
+.sidebar .navb {
+
   border-bottom: 1px solid #455A64;
   color: #CFD8DC;
   font-size: 14px;
-  padding: 16px 24px;
+  padding: 29px 12px;
 }
 
-.sidebar .navb a:hover {
+.sidebar .navb :hover {
   background: none;
   color: #ECEFF1;
 }
 
-.sidebar .navb a i {
-  margin-right: 16px;
-}
+
 
 .db {
   text-decoration: none;
@@ -68,19 +62,63 @@
 
 .navb li {
   padding-left: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   font-family: cursive;
   font-size: 20px;
   color: #c21500;
+  list-style: none;
+
+}
+
+.navb li:hover {
+  color: #ECEFF1
+}
+
+.over {
+  list-style: none;
+  text-decoration: none;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #ec9e16;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f5500f;
+  font-family: cursive;
   
 }
 
-.navb .H {
-  text-decoration: none;
-  color: #c21500;
-  font-style: none;
-  padding-left: 60px;
+
+.cta:hover:before {
+  width: 100%;
+  background: #ec9e16;
 }
-.navb li:hover{
-    color:#ECEFF1
+
+
+
+.cta:active {
+  transform: scale(0.95);
 }

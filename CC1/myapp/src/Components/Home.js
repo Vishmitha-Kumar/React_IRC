@@ -21,6 +21,8 @@ const Home = () => {
                 <h2>Browse pets from our network of over 11,500 shelters and rescues.</h2>
             </div>
 
+
+
             <Ovalcard />
             <About />
             <Overlap />

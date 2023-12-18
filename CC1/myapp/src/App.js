@@ -10,21 +10,25 @@ import './Assets/Css/dashboard.css'
 import Home from './Components/Home'
 import Login from './Components/Login'
 import Register from './Components/Register'
-// import Dashboard from './Components/Dashboard'
 import {Routes, Route} from 'react-router-dom';
-
+import Overlap from './Components/Overlap'
+import "./Assets/Css/overlap.css"
+import DWelcome from './Components/DWelcome'
 
 function App() {
     return (
 
         <>
+
         <div className="container"> 
-        <Routes>
+        <DWelcome/>
+        
+        {/* <Routes>
             <Route path = '/' element = {<Login/>}/>
             <Route path = '/home' element = {<Home/>}/>
             <Route path='/register' element={<Register/>}/>
             <Route path='/login' element={<Login/>}/>
-        </Routes>
+        </Routes> */}
        
             </div>
         </>
