@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Home } from 'lucide-react';
 import { UsersRound } from 'lucide-react';
 import { LogOut } from 'lucide-react';
+import { LayoutDashboard } from 'lucide-react';
 
 function Nav() {
     return (
@@ -10,6 +11,12 @@ function Nav() {
             <div className="navbar">
                
                 <ul>
+
+                    <li>
+                    <Link to='/d' className='nav'>
+                         <LayoutDashboard />
+                    </Link>
+                    </li>
                     <li>
                     <Link to='/register' className='nav'>
                         <UsersRound />

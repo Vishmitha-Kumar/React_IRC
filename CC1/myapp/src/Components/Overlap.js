@@ -46,8 +46,8 @@ function Overlap() {
                         <p>Love is a four legged word</p>
                     </div>
                     <div class="back">
-                        <h2>Name:pattu</h2>
-                        <h2>Gender:Feale</h2>
+                        <h2>Name:Pattu</h2>
+                        <h2>Gender:Female</h2>
                         <h2>Category:Small</h2>
                         <p>Perfect for family</p>
 

@@ -21,14 +21,15 @@ function App() {
         <>
 
         <div className="container"> 
-        <DWelcome/>
+    
         
-        {/* <Routes>
+        <Routes>
             <Route path = '/' element = {<Login/>}/>
             <Route path = '/home' element = {<Home/>}/>
             <Route path='/register' element={<Register/>}/>
             <Route path='/login' element={<Login/>}/>
-        </Routes> */}
+            <Route path='/d' element={<DWelcome/>}/>
+        </Routes>
        
             </div>
         </>
