@@ -55,7 +55,7 @@
     margin-bottom: 1rem;
 }
 
-.auth-btn {
+.auth-bts {
     border-radius: 5px;
     width: 80%;
     padding: 1rem;
@@ -69,6 +69,6 @@
     border-bottom: 2px solid rgb(242, 77, 12);
 }
 
-.auth-btn:hover {
+.auth-bts:hover {
     background-color: #f24c15;
 }

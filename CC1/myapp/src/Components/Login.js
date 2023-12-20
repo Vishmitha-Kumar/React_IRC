@@ -25,7 +25,7 @@ function Login() {
 
     if (username === 'Isai' && password === '0706') {
        alert("Welcome!!")
-      navH('/d')
+      navH('/dpet')
 
     } else {
       toast.error('Invaild Username (or) Password', {
@@ -44,7 +44,6 @@ function Login() {
 
   return (
     <div>
-      {/* <Nav /> */}
       <div className="wrapper">
         <div className="register">
           <form onSubmit={handleSubmit}>
@@ -69,7 +68,7 @@ function Login() {
               onChange={handlePasswordChange}
             />
 
-            <input type="submit" value="Login" className="auth-btn" />
+            <input type="submit" value="Login" className="auth-bts" />
 
           </form>
         </div>

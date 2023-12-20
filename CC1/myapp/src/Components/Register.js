@@ -68,7 +68,7 @@ function Register() {
 
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <div className="wrap">
         <div className="reg">
           <form onSubmit={handleSubmit}>
@@ -77,7 +77,7 @@ function Register() {
               type="text"
               id="user"
               placeholder="Username"
-              className="auth-input"
+              className="auth-inputr"
               required
               value={username}
               onChange={handleUsernameChange}
@@ -85,7 +85,7 @@ function Register() {
             <input
               type="email"
               placeholder="Email"
-              className="auth-input"
+              className="auth-inputr"
               required
               value={email}
               onChange={handleEmailChange}
@@ -94,7 +94,7 @@ function Register() {
               type="password"
               id="pwd"
               placeholder="Password"
-              className="auth-input"
+              className="auth-inputr"
               required
               value={password}
               onChange={handlePasswordChange}
@@ -102,7 +102,7 @@ function Register() {
             <input
               type="password"
               placeholder="Confirm Password"
-              className="auth-input"
+              className="auth-inputr"
               required
               value={confirmPassword}
               onChange={handleConfirmPasswordChange}
@@ -110,7 +110,7 @@ function Register() {
             <input
               type="tel"
               placeholder="Phone"
-              className="auth-input"
+              className="auth-inputr"
               required
               value={phone}
               onChange={handlePhoneChange}
@@ -119,12 +119,12 @@ function Register() {
             <input
               type="textarea"
               placeholder="Address"
-              className="auth-input"
+              className="auth-inputr"
               value={address}
               onChange={handleAddressChange}
             />
-            <input type="submit" value="Register" className="auth-btn" />
-            <Link to='/home'>
+            <input type="submit" value="Register" className="auth-btr" />
+            <Link to='/'>
                <h4 style={{color:'black',textDecoration:'none',listStyle:'none'}}>Back</h4>
                </Link>
           </form>

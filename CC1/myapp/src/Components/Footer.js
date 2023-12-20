@@ -2,9 +2,7 @@ function Footer() {
   return (
     <>
       <footer>
-        <li class="footer-title">
-          <h1>Search a Pet</h1>
-        </li>
+       
         <div class="footer-items">
           <ul>
             <h3>ThePetNest</h3>

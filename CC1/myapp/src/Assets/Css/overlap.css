@@ -1,4 +1,157 @@
-.flip {
+.cardy {
+  --blur: 16px;
+  --size: clamp(300px, 50vmin, 600px);
+  width: 15rem;
+  height:19rem;
+  aspect-ratio: 4 / 3;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border-radius: 2rem;
+  overflow: hidden;
+  color: #000;
+  
+  position: relative;
+}
+.call{
+  padding-top:100px;
+  flex-direction: row;
+  display:flex;
+  gap:2rem;
+  padding-left:150px;
+}
+
+.cardy .card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-family: cursive;
+}
+
+.cardy:hover .card__overlay {
+  opacity: 1;
+}
+.cardy:hover {
+  transform: translate(-50%, -50%) scale(1.05); /* Adjust the scale factor as needed */
+}
+
+/* ... (rest of your CSS code) */
+
+
+/* ... (rest of your CSS code) */
+
+
+.cardy__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(calc(1 + (var(--hover, 0) * 0.25)))
+    rotate(calc(var(--hover, 0) * -5deg));
+  transition: transform 0.2s;
+}
+
+.cardy__footer {
+  padding: 0 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: red;
+  display: grid;
+  grid-template-row: auto auto;
+  gap: 0.5ch;
+  background: hsl(0 0% 100% / 0.5);
+  backdrop-filter: blur(var(--blur));
+  height: 30%;
+  align-content: center;
+}
+
+.cardy__action {
+  position: absolute;
+  aspect-ratio: 1;
+  width: calc(var(--size) * 0.15);
+  bottom: 30%;
+  right: 1.5rem;
+  transform: translateY(50%) translateY(calc((var(--size) * 0.4)))
+    translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
+  background: purple;
+  display: grid;
+  place-items: center;
+  border-radius: 0.5rem;
+  background: hsl(0 0% 100% / 0.5);
+  /*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
+  transition: transform 0.2s;
+}
+
+.cardy__action svg {
+  aspect-ratio: 1;
+  width: 50%;
+}
+
+.cardy__footer span:nth-of-type(1) {
+  font-size: calc(var(--size) * 0.065);
+}
+
+.cardy__footer span:nth-of-type(2) {
+  font-size: calc(var(--size) * 0.035);
+}
+
+.cardy:is(:hover, :focus-visible) {
+  --hover: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .flip {
   position: relative;
   display: inline-block;
   
@@ -67,16 +220,16 @@
       }
   }
   
-  img.lap {
+  img.lap { */
       /* max-width: 100%; */
-      height: 10rem;
+      /* height: 10rem;
       width:10rem;
       display: block;
       border-radius: 10px 10px 0 0;
       align-items: center;
-      justify-content: center;
+      justify-content: center; */
       /* margin-left: 3rem; */
-      border-radius: 5px;
+      /* border-radius: 5px;
       position: relative;
       
       border: 2px solid #000;
@@ -115,7 +268,7 @@
 .front p{
   color:rgb(5, 3, 0);
   padding-left:10px;
-}
+} */
 /* .swiper {
   overflow: hidden;
   width: 100%;

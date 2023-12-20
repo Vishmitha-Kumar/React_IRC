@@ -8,13 +8,16 @@
 
 .navbar {
     padding: 1.5px;
-    background: #c21500;  
-    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  
-    background: linear-gradient(to right, #ffc500, #c21500);
+   
+    
     display: flex;
     justify-content: space-between; /* Adjusted to spread items evenly */
     align-items: center; /* Vertically center items */
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc500, #c21500);
     justify-content: end;
+    /* position: fixed; */
 }
 
 

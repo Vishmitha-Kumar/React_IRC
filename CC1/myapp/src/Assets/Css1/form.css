@@ -1,0 +1,53 @@
+.regis{
+    height:75vh;
+    width:25vw;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:15px;
+    gap:1rem;
+    display: flex;
+    text-align: center;
+    margin-left: 85vh;
+    margin-top:10vh;
+    box-shadow:
+  3.4px 3.4px 2.7px rgba(0, 0, 0, 0.074),
+  8.7px 8.7px 6.9px rgba(0, 0, 0, 0.106),
+  17.7px 17.7px 14.2px rgba(0, 0, 0, 0.134),
+  36.5px 36.5px 29.2px rgba(0, 0, 0, 0.166),
+  100px 100px 80px rgba(0, 0, 0, 0.24);
+}
+.auth-inputf{
+    background-color:#f5f5f7;
+    width:80%;
+    padding:1rem;
+    border:none;
+    border-radius:5px;
+    margin-bottom: 1rem;
+
+
+}
+.auth-btnf{
+    border-radius:5px;
+    width:70%;
+    padding:1rem;
+    border:none;
+    background-color:blueviolet;
+    color:white;
+    /* margin: 20%; */
+
+}
+.auth-inputf:focus{
+    border-bottom:2px solid blueviolet
+}
+.auth-btnf:hover{
+    background-color:#9455f3;
+}
+.formhead
+{
+    margin-bottom:50px;
+    
+}
+
+

@@ -21,12 +21,14 @@
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background-color: #141515;
+  background-color: #fdfcf9;
+  
   transition: all 0.5s ease;
 }
 
 .sidebar header {
   background: #c21500;
+  background-color: #f5deb3;
   background: -webkit-linear-gradient(to right, #ffc500, #c21500);
   background: linear-gradient(to right, #ffc500, #c21500);
   font-size: 20px;
@@ -40,7 +42,6 @@
 
 .sidebar .navb {
 
-  border-bottom: 1px solid #455A64;
   color: #CFD8DC;
   font-size: 14px;
   padding: 29px 12px;
