@@ -7,9 +7,10 @@
     background-image: url("https://img.freepik.com/premium-photo/dog-portrait-studio-with-black-background-generated-by-artificial-intelligence_384104-294.jpg");
      background-repeat: no-repeat;
      background-size:cover ;
-     /* width:20px; */
+     
     overflow: hidden;
     position: relative;
+    
 } 
 
 .register {
@@ -60,15 +61,15 @@
     width: 80%;
     padding: 1rem;
     border: none;
-    background-color: rgb(236, 104, 17);
+    background-color: rgb(79, 47, 26);
     color: white;
     font-family: cursive;
 }
 
 .auth-input:focus {
-    border-bottom: 2px solid rgb(242, 77, 12);
+    border-bottom: 2px solid rgb(70, 39, 26);
 }
 
 .auth-bts:hover {
-    background-color: #f24c15;
+    background-color: #582e20;
 }

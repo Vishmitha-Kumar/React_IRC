@@ -10,13 +10,14 @@ function Form() {
 
     };
     return (
-        <div>
+        <div className="wrapy">
+            
             <div class="regis">
                 <form onSubmit={handleSubmit}>
                  <div className="inputt">
                     <h3 className="formhead">To Rescue</h3>
 
-                    <input type="text" id="Name" placeholder="Username" className="auth-inputf" required />
+                    <input type="text" id="Name" placeholder="Name" className="auth-inputf" required />
 
                     <input type="tel" placeholder="Phonenumber" className="auth-inputf" required />
 

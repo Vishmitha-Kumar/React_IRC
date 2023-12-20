@@ -46,6 +46,7 @@ nav > ul > li > a {
   -webkit-transition: width 0.05s linear;
   z-index: 10;
   padding-top: 5px;
+
 }
 
 .main-menu:hover {
@@ -84,6 +85,7 @@ nav > ul > li > a {
   font-family: "Mulish", sans-serif;
   /* gap: 2rem; */
   padding: 10%;
+  font-family: cursive;
 }
 
 .logout {
@@ -97,5 +99,5 @@ nav > ul > li > a {
 .main-menu li > a:focus {
   text-decoration: none;
   color: #fff;
-  background-color: rgb(29, 79, 215, 0.7);
+  background-color: rgba(215, 113, 29, 0.7);
 }

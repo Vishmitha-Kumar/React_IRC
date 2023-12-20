@@ -52,15 +52,15 @@
     width: 80%;
     padding: 1rem;
     border: none;
-    background-color: rgb(236, 104, 17);
+    background-color: rgb(54, 28, 11);
     color: white;
     font-family: cursive;
 }
 
 .auth-inputr:focus {
-    border-bottom: 2px solid rgb(242, 77, 12);
+    border-bottom: 2px solid rgb(79, 29, 9);
 }
 
 .auth-btr:hover {
-    background-color: #f24c15;
+    background-color: #563225;
 }

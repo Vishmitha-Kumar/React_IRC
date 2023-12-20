@@ -1,11 +1,15 @@
+import { Facebook } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+import { Twitter } from 'lucide-react';
+
 function Footer() {
   return (
     <>
       <footer>
-       
+
         <div class="footer-items">
           <ul>
-            <h3>ThePetNest</h3>
+            <h3>Petty Pet</h3>
             <li>About us</li>
             <li>Career</li>
             <li>Online Pet Shop</li>
@@ -38,6 +42,17 @@ function Footer() {
             <li>Terms & Conditions</li>
             <li>Help</li>
           </ul>
+      
+              
+   <div class="social-icons">
+    <h3>Social Media</h3>
+    <div class="icon-container">
+      <div class="icon"><Facebook/></div> 
+      <div class="icon"><Instagram/></div>
+      <div class="icon"><Twitter/></div>
+    </div>
+  </div>
+            
         </div>
       </footer>
 

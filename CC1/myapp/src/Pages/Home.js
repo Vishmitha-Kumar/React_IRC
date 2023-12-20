@@ -2,10 +2,12 @@
 import Footer from '../Components/Footer'
 import '../Assets/Css/footer.css'
 import {Link} from 'react-router-dom'
+import { PawPrint } from 'lucide-react';
 function Home() {
     return (
         <>
           <div className="navi">
+            <h2>Petty Pet <PawPrint/></h2>
             <ul>
                 <Link to='/login'>
             <input type="submit" value="Login" className="in" />
@@ -53,11 +55,14 @@ function Home() {
                 <div className="fourData">
 
                     <h1>Emergency !</h1>
+                    <h3>When You See an Animal in Distress … If you need to report a situation involving an animal in immediate danger</h3>
 
                 </div>
+                <div className="emer">
                 <Link to='/form'>
                 <input type="submit" value="To Rescue" className="fourPic" />
                 </Link>
+                </div>
             </div>
             <Footer/>
         </>

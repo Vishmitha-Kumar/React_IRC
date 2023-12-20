@@ -12,6 +12,8 @@
       top: 0;
       text-align: center;
       transition: all 0.25s;
+      background-color: burlywood;
+      font-family: cursive;
   
       &:nth-child(2) {
         margin: 0 50px;
@@ -39,63 +41,68 @@
             width:60%;
             padding:0.7rem;
             border:none;
-            background-color:blueviolet;
+            background-color:rgb(112, 54, 22);
             color:white;
             margin: 12%;
+            font-family: cursive;
         
         
       }
       .dogbtn:hover{
-        background-color: beige;
+        background-color: rgb(79, 22, 22);
       }
     }
  
   
 
 .dgcont{
-    background-color: brown;
+    /* background-color: brown; */
     height:70vh;
     width:80vw;
-    margin-left:8%;
+    margin-left:17%;
     margin-top: 3%;
     /* margin-top: 10%; */
 }
 .dgcont2{
-    background-color: brown;
+    /* background-color: brown; */
     height:70vh;
     width:80vw;
-    margin-left:8%;
+    margin-left:17%;
     margin-top: 3%;
     /* margin:9%; */
     /* top: 10%; */
 }
 .dgcont3{
-    background-color: brown;
+    /* background-color: brown; */
     height:70vh;
     width:80vw;
-    margin-left:8%;
+    margin-left:17%;
     margin-top: 3%;
     /* margin:9%; */
     /* top: 10%; */
 }
 .dgcont4{
-    background-color: brown;
+    /* background-color: brown; */
     height:70vh;
     width:80vw;
-    margin-left:8%;
+    margin-left:17%;
     margin-top: 3%;
     /* margin:9%; */
     /* top: 10%; */
 }
 .dhead{
-    background:pink;
+    /* background:rgba(98, 44, 26, 0.568); */
     height: 20vh;
     width:30vw;
-    margin-left: 8%;
+    margin-left: 11%;
     text-align: center;
+  }
+  .dhead svg{
+  fill:brown;
+
 }
 .footy{
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 30vh;
     width:99vw;
     margin-top: 3%;
@@ -103,4 +110,8 @@
 .dhead h1{
     font-family: cursive;
     font-size: 5.5rem;
+}
+.sizereduce{
+  height:13rem;
+  width:20rem;
 }

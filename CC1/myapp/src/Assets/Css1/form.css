@@ -1,5 +1,18 @@
+.wrapy {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-photo/dog-portrait-studio-with-black-background-generated-by-artificial-intelligence_384104-294.jpg");
+     background-repeat: no-repeat;
+     background-size:cover ;
+     /* width:20px; */
+    /* overflow: hidden; */
+    /* position: relative; */
+} 
 .regis{
-    height:75vh;
+    height:70vh;
     width:25vw;
     background-color:white;
     justify-content: center;
@@ -7,9 +20,10 @@
     flex-direction: column;
     border-radius:15px;
     gap:1rem;
+    /* background-image: url("https://img.freepik.com/premium-photo/dog-portrait-studio-with-black-background-generated-by-artificial-intelligence_384104-294.jpg"); */
     display: flex;
     text-align: center;
-    margin-left: 85vh;
+    margin-left: 99vh;
     margin-top:10vh;
     box-shadow:
   3.4px 3.4px 2.7px rgba(0, 0, 0, 0.074),
@@ -33,16 +47,16 @@
     width:70%;
     padding:1rem;
     border:none;
-    background-color:blueviolet;
+    background-color:rgb(121, 37, 18);
     color:white;
     /* margin: 20%; */
 
 }
 .auth-inputf:focus{
-    border-bottom:2px solid blueviolet
+    border-bottom:2px solid rgb(137, 41, 17)
 }
 .auth-btnf:hover{
-    background-color:#9455f3;
+    background-color:#a32d0d;
 }
 .formhead
 {

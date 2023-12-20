@@ -25,7 +25,7 @@ function Login() {
 
     if (username === 'Isai' && password === '0706') {
        alert("Welcome!!")
-      navH('/dpet')
+      navH('/welcome')
 
     } else {
       toast.error('Invaild Username (or) Password', {

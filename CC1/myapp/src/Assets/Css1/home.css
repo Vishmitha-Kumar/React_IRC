@@ -1,24 +1,38 @@
 body{
-    background-color: blue;
+    /* background-color: blue; */
     margin:0;
     overflow-x: hidden;
+    background-color: rgb(245, 241, 234);
 }
 
 .textdiv{
     height:50vh;
     width:80vw;
     margin:8%;
-    margin-top: 5%;
-    /* background-color: red; */
-    
+    margin-top: 4%;
+    background-color: burlywood;
+    font-family: cursive;
+}
+.navi svg{
+    fill:white;
 }
 
 .first{
+    /* background-color: blueviolet; */
     display: flex;
     height:50vh;
     width:100vw;
-    /* background-color: aqua; */
+
     gap:3rem;
+}
+.first h1{
+    padding-bottom: 20px;
+}
+.second h1{
+    padding-bottom: 20px;
+}
+.thrid h1{
+    padding-bottom: 20px;
 }
 
 .firstpic{
@@ -34,14 +48,15 @@ body{
     /* background-color: brown; */
     height:30vh;
     width:50vw;
-    margin:7%;
+    margin:5%;
+    font-family: cursive;
 }
 
 .second{
     display: flex;
     height:50vh;
     width:100vw;
-    /* background-color: rgb(106, 11, 196); */
+    background-color:burlywood;
     gap:3rem;
 }
 
@@ -55,21 +70,22 @@ body{
 }
 
 .secondData{
-    /* background-image: linear-gradient(to right top, #3b23df, #4c3ee3, #5d54e6, #6d68e8, #7d7be9, #7c7be9, #7b7aea, #7a7aea, #6766eb, #5451ea, #3e3ae8, #211ce5); */
+ 
     height:30vh;
     width:50vw;
-    margin:7%;
+    margin:5%;
+    font-family: cursive;
 }
 .thrid{
     display: flex;
     height:50vh;
     width:100vw;
-    /* background-color: aqua; */
+    
     gap:3rem;
 }
 
 .thridpic{
-    /* background-color: black; */
+   
     height:40vh;
     width:20vw;
     margin:4%;
@@ -81,7 +97,8 @@ body{
     /* background-color: brown; */
     height:30vh;
     width:50vw;
-    margin:7%;
+    margin:5%;
+    font-family: cursive;
 }
 .textdiv h1{
     margin:3%;
@@ -96,58 +113,77 @@ body{
     height:5vh;
     font-size: 1.3rem;
     font-weight: 100;
-    margin: 2%;
+    margin: 3%;
     /* background-color: aquamarine; */
 }
 .auth-btn {
-    border-radius: 5px;
+    border-radius: 10px;
     /* width: 80%; */
     padding: 1rem;
     border: none;
-    /* background-color: rgb(236, 104, 17); */
-    color: white;
+    background-color: rgb(71, 43, 25);
+    color: rgb(245, 236, 236);
     /* font-family: cursive; */
     margin-left: 29rem;
     margin-top: 5%;
+    font-family: cursive;
 }
 .auth-btn:hover{
-    background-color: brown;
+    background-color: rgb(102, 31, 31);
 }
 .emergency{
- height:20vh;
+ height:30vh;
     width:100vw;
-    background-color: #ba10d0;
+    background-color:burlywood;
     padding: 5px;
+    /* display: flex; */
+    text-align: center;
 }
 .fourData{
    text-align: center;
+   height:15vh;
+   width:100vw;
+   background-color: yellow;
+   font-family: cursive;
 }
 .fourPic{
- border-radius: 5px;
-   
+    
+    background-color: rgb(231, 22, 22);
+    border-radius: 5px;
+    font-family: cursive;
     padding: 1rem;
     border: none;
-    background-color: rgb(236, 104, 17);
     color: white;
-    
-    margin-left: 36rem;
-      text-align: center;
-      /* padding-top: 5px; */
+    margin-right: 5rem;
+    margin-top: 1rem;
+}
+.emer{
+    /* background-color: blue; */
+    height:15vh;
+    width:10vw;
+    /* padding-left:2%; */
+    margin-left: 45%;
 }
 .fourPic:hover{
-    background-color: brown;
+    background-color: rgba(128, 47, 47, 0.573);
 }
 .navi{
-     
+   
     padding: 1.5px;
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-     /* background-color: aliceblue; */
-    justify-content: end;
+     background-color:rgb(114, 47, 47);
+    /* justify-content: end; */
    
 }
-
+.navi h2{
+    justify-content:start;
+    align-items: flex-start;
+    font-size: 2rem;
+    font-family: cursive;
+    
+}
 
 .navi ul {
     list-style: none;
@@ -161,12 +197,12 @@ body{
 
 .navi .in{
     text-decoration: none;
-    color: black;
+    /* color: black; */
     font-weight: bold;
     font-size: 18px;
     font-family: cursive;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .navi h1 {
@@ -174,6 +210,7 @@ body{
     font-family: cursive;
 }
 .in:hover{
-color:yellow
+color:rgb(252, 249, 249);
+background-color: rgb(165, 72, 72);
 }    
 

@@ -6,6 +6,9 @@ import './Assets/Css/register.css'
 import './Assets/Css1/dash.css'
 import './Assets/Css1/dpet.css'
 import './Assets/Css1/cpet.css'
+import './Assets/Css1/apet.css'
+import './Assets/Css1/opet.css'
+import './Assets/Css1/welcome.css'
 import Home from './Pages/Home'
 import Form from './Pages/Form'
 import Login from './Components/Login'
@@ -13,6 +16,9 @@ import Register from './Components/Register'
 import Dash from './Pages/Dash'
 import Dpet from './Pages/Dpet'
 import Cpet from './Pages/Cpet'
+import Apet from './Pages/Apet'
+import Opet from './Pages/Opet'
+import Welcome from './Pages/Welcome';
 
 function App(){
     return(
@@ -25,7 +31,12 @@ function App(){
             <Route path='/register' element={<Register/>}/>
            <Route path="/dpet" element ={<Dpet/>}/>
            <Route path="/cpet" element ={<Cpet/>}/>
+           <Route path="/apet" element ={<Apet/>}/>
+           <Route path="/opet" element ={<Opet/>}/>
+           <Route path="/welcome" element ={<Welcome/>}/>
         </Routes>
+        
+    
         </>
 
     )

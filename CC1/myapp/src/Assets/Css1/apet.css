@@ -1,7 +1,7 @@
 
     
   
-    .ccard {
+    .acard {
         width: 280px;
         height: 400px;
         float: left;
@@ -14,7 +14,6 @@
         transition: all 0.25s;
         background-color: burlywood;
         font-family: cursive;
-    
         &:nth-child(2) {
           margin: 0 50px;
         }
@@ -35,7 +34,7 @@
           font-weight: 300;
         }
     
-        .catbtn {
+        .aquabtn {
          
               border-radius:5px;
               width:60%;
@@ -47,14 +46,14 @@
               font-family: cursive;
           
         }
-        .catbtn:hover{
+        .aquabtn:hover{
           background-color: beige;
         }
       }
    
     
   
-  .cgcont{
+  .agcont{
       /* background-color: brown; */
       height:70vh;
       width:80vw;
@@ -62,7 +61,7 @@
       margin-top: 3%;
       /* margin-top: 10%; */
   }
-  .cgcont2{
+  .agcont2{
       /* background-color: brown; */
       height:70vh;
       width:80vw;
@@ -71,7 +70,7 @@
       /* margin:9%; */
       /* top: 10%; */
   }
-  .cgcont3{
+  .agcont3{
       /* background-color: brown; */
       height:70vh;
       width:80vw;
@@ -80,7 +79,7 @@
       /* margin:9%; */
       /* top: 10%; */
   }
-  .cgcont4{
+  .agcont4{
       /* background-color: brown; */
       height:70vh;
       width:80vw;
@@ -89,14 +88,14 @@
       /* margin:9%; */
       /* top: 10%; */
   }
-  .chead{
+  .ahead{
       /* background:pink; */
       height: 20vh;
       width:30vw;
-      margin-left: 11%;
+      margin-left: 17%;
       text-align: center;
   }
-  .chead svg{
+  .ahead svg{
     fill:brown;
   }
   .footy{
@@ -105,7 +104,7 @@
       width:99vw;
       margin-top: 3%;
   }
-  .chead h1{
+  .ahead h1{
       font-family: cursive;
       font-size: 5.5rem;
   }

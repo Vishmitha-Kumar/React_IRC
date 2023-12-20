@@ -6,12 +6,20 @@ import { Turtle } from 'lucide-react';
 import { Shell } from 'lucide-react';
 import { LogOut } from 'lucide-react';
 import { Home } from 'lucide-react';
+import { LayoutDashboard } from 'lucide-react';
 
 function Dash() {
   return (
     <>
       <nav class="main-menu">
         <ul>
+          <li>
+            <Link to='/welcome'>
+            <LayoutDashboard />
+              <span class="nav-text">Dashboard</span>
+              {/* <i class="fa fa-home nav-icon"></i> */}
+            </Link>
+          </li>
           <li>
             <Link to='/'>
               <Home />
@@ -37,18 +45,18 @@ function Dash() {
 
           </li>
 
-          <li>
-            {/* <a href="#"> */}
-            <Link to='/'>
-              {/* <i class="fa fa-pen nav-icon"></i> */}
+          {/* <li>
+          
+            <Link to='/apet'>
+              
               <Fish />
               <span class="nav-text">Aquarium pets</span>
             </Link>
-          </li>
+          </li> */}
 
           <li>
             {/* <a href="#"> */}
-            <Link to='/'>
+            <Link to='/apet'>
               {/* <i class="fa fa-envelope nav-icon"></i> */}
               <Turtle />
               <span class="nav-text">Exotic pets</span>
@@ -58,7 +66,7 @@ function Dash() {
           <li>
             {/* <a href="#">
         <i class="fa fa-bell nav-icon"></i> */}
-            <Link to='/'>
+            <Link to='/opet'>
               <Shell />
               <span class="nav-text">Others</span>
             </Link>
