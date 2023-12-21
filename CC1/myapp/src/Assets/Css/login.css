@@ -64,6 +64,7 @@
     background-color: rgb(79, 47, 26);
     color: white;
     font-family: cursive;
+    cursor: pointer;
 }
 
 .auth-input:focus {

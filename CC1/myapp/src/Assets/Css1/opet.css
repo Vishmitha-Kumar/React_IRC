@@ -1,6 +1,4 @@
 
-    
-  
     .ocard {
         width: 280px;
         height: 400px;
@@ -45,10 +43,11 @@
               color:white;
               margin: 12%;
               font-family: cursive;
+              cursor: pointer;
           
         }
         .obtn:hover{
-          background-color: beige;
+          background-color: rgb(79, 22, 22);
         }
       }
    

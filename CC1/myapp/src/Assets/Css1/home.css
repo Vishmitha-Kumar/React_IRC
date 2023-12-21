@@ -14,7 +14,7 @@ body{
     font-family: cursive;
 }
 .navi svg{
-    fill:white;
+    fill:rgb(240, 231, 169);
 }
 
 .first{
@@ -127,6 +127,7 @@ body{
     margin-left: 29rem;
     margin-top: 5%;
     font-family: cursive;
+    cursor: pointer;
 }
 .auth-btn:hover{
     background-color: rgb(102, 31, 31);
@@ -156,6 +157,7 @@ body{
     color: white;
     margin-right: 5rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
 .emer{
     /* background-color: blue; */
@@ -203,6 +205,7 @@ body{
     font-family: cursive;
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .navi h1 {

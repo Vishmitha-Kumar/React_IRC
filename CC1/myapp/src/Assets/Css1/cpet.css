@@ -45,10 +45,11 @@
               color:white;
               margin: 12%;
               font-family: cursive;
+              cursor: pointer;
           
         }
         .catbtn:hover{
-          background-color: beige;
+          background-color: rgb(79, 22, 22);
         }
       }
    

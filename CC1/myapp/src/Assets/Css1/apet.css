@@ -44,10 +44,11 @@
               color:white;
               margin: 12%;
               font-family: cursive;
+              cursor: pointer;
           
         }
         .aquabtn:hover{
-          background-color: beige;
+          background-color: rgb(79, 22, 22);
         }
       }
    

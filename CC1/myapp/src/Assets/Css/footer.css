@@ -21,6 +21,7 @@
    background-color: rgb(78, 52, 17);
   color:#ddd;
   /* padding-left:30px; */
+  cursor: pointer;
 }
 
 .footer-items h3 {
@@ -69,6 +70,7 @@
   padding: 5px;
   font-style: cursive;
   color: #fff;
+  cursor: pointer;
 }
 
 .social-icons h6 {
@@ -86,4 +88,5 @@
   margin: 0 10px;
   font-style: cursive;
   color: #fff;
+  cursor: pointer;
 }

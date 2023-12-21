@@ -50,7 +50,7 @@ function Register() {
     if (password === confirmPassword) {
       
       alert('Registration successful!');
-      navJ('/dpet')
+      navJ('/login')
       
     } else {
       toast.error('Invaild Username (or) Password', {
