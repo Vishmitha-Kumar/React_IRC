@@ -1,0 +1,44 @@
+.body{
+    background-color: rgb(53, 53, 52);
+    height:100vh;
+    width:100vw;
+}
+.navs{
+    background-color:  rgb(96, 94, 96);
+    height:90vh;
+    width:15vw;
+    
+}
+.navt{
+    background-color:  rgb(53, 53, 52);
+    height:10vh;
+    width:100vw;
+}
+.home{
+     background-color:   rgb(96, 94, 96);
+    
+    height:20vh;
+    width:15vw;
+    margin-bottom: 20px;
+}
+.navdiv{
+    background-color:  rgb(53, 53, 52);
+    height:10vh;
+    width:15vw;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    background-color: aqua;
+    height:10vh;
+    width:5vw;
+    border-radius: 25px;
+}
+.name{
+    background-color: brown;
+    height:10vh;
+    width:10vw;
+
+}
