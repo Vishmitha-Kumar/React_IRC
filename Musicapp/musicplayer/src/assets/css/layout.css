@@ -92,11 +92,11 @@ svg{
 .navt:hover{
     background-color: rgb(53, 53, 52) ;
 }
-.song{
+/* .song{
     background-color: white;
     height:92vh;
     width:85vw;
-}
+} */
 .melody{
     height: 55vh;
     width:55vw;
@@ -111,7 +111,7 @@ svg{
   100px 100px 80px rgba(0, 0, 0, 0.18)
 ;
 }
-.bar{
+/* .bar{
     height:10vh;
     width:55vw;
     background-color: rgb(96, 94, 96);
@@ -148,8 +148,8 @@ svg{
     padding-left: 40px;
     padding-top: 15px;
     border-radius: 30px;
-}
-.for:hover{
+} */
+/* .for:hover{
 background-color:rgb(53, 53, 52) ;
 }
 .play:hover{
@@ -157,4 +157,4 @@ background-color:rgb(53, 53, 52) ;
 }
 .to:hover{
 background-color:rgb(53, 53, 52) ;
-}
+} */

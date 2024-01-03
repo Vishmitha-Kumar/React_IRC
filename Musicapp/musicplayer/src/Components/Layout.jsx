@@ -48,7 +48,7 @@ const Layout = () => {
                         </div>
                     </div>
                 </div>
-                <div className="song">
+                {/* <div className="song">
                     <img className="melody" src="https://miro.medium.com/v2/resize:fit:1024/1*Up8iD0NvJXWUAAht-ihAdA.jpeg" />
                   <div className="bar">
                     <div className="for">
@@ -61,7 +61,7 @@ const Layout = () => {
                     <StepForward />
                     </div>
                   </div>
-                </div>
+                </div> */}
             </div>
         </>
     )
