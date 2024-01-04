@@ -97,20 +97,7 @@ svg{
     height:92vh;
     width:85vw;
 } */
-.melody{
-    height: 55vh;
-    width:55vw;
-    margin-top: 3%;
-    margin-left: 17%;
-    border-radius: 2px;
-    box-shadow:
-  3.4px 3.4px 2.7px rgba(0, 0, 0, 0.056),
-  8.7px 8.7px 6.9px rgba(0, 0, 0, 0.08),
-  17.7px 17.7px 14.2px rgba(0, 0, 0, 0.1),
-  36.5px 36.5px 29.2px rgba(0, 0, 0, 0.124),
-  100px 100px 80px rgba(0, 0, 0, 0.18)
-;
-}
+
 /* .bar{
     height:10vh;
     width:55vw;
@@ -121,8 +108,8 @@ svg{
     flex-direction: row;
     gap:12rem;
     border-radius: 20px;
-}
-.for{
+} */
+/* .for{
     height:10vh;
     width:10vw;
     background-color: rgb(89, 83, 89);
@@ -148,8 +135,8 @@ svg{
     padding-left: 40px;
     padding-top: 15px;
     border-radius: 30px;
-} */
-/* .for:hover{
+} 
+ .for:hover{
 background-color:rgb(53, 53, 52) ;
 }
 .play:hover{
