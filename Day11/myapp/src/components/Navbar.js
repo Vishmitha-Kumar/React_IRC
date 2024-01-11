@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
-import { toast, ToastContainer } from 'react-toastify'
+// import { toast, ToastContainer } from 'react-toastify'
 
-  import 'react-toastify/dist/ReactToastify.css';
+//   import 'react-toastify/dist/ReactToastify.css';
 const NavBar = () => {
     const [visible, setVisible] = useState(false);
     const toggle = () => {
@@ -48,30 +48,30 @@ const NavBar = () => {
             if(formData==="v@gmail.com" && formData.password==='1234')
             {
                 console.log(formData.email)
-                toast.success('Successful!', {
-                    position: "top-right",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "dark",
-                    });
+                // toast.success('Successful!', {
+                //     position: "top-right",
+                //     autoClose: 5000,
+                //     hideProgressBar: false,
+                //     closeOnClick: true,
+                //     pauseOnHover: true,
+                //     draggable: true,
+                //     progress: undefined,
+                //     theme: "dark",
+                //     });
 
             }
-            else{
-                toast.error('Invaild email/password', {
-                    position: "top-right",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "dark",
-                    });
-            }
+            // else{
+            //     toast.error('Invaild email/password', {
+            //         position: "top-right",
+            //         autoClose: 5000,
+            //         hideProgressBar: false,
+            //         closeOnClick: true,
+            //         pauseOnHover: true,
+            //         draggable: true,
+            //         progress: undefined,
+            //         theme: "dark",
+            //         });
+            // }
         }
         if(formData.tel.length <10)
         {
@@ -108,30 +108,30 @@ const NavBar = () => {
             if(formData==="v@gmail.com" && formData.password==='1234')
             {
                 console.log(formData.email)
-                toast.success('Successful!', {
-                    position: "top-right",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "dark",
-                    });
+                // toast.success('Successful!', {
+                //     position: "top-right",
+                //     autoClose: 5000,
+                //     hideProgressBar: false,
+                //     closeOnClick: true,
+                //     pauseOnHover: true,
+                //     draggable: true,
+                //     progress: undefined,
+                //     theme: "dark",
+                //     });
 
             }
-            else{
-                toast.error('Invaild email/password', {
-                    position: "top-right",
-                    autoClose: 5000,
-                    hideProgressBar: false,
-                    closeOnClick: true,
-                    pauseOnHover: true,
-                    draggable: true,
-                    progress: undefined,
-                    theme: "dark",
-                    });
-            }
+            // else{
+            //     toast.error('Invaild email/password', {
+            //         position: "top-right",
+            //         autoClose: 5000,
+            //         hideProgressBar: false,
+            //         closeOnClick: true,
+            //         pauseOnHover: true,
+            //         draggable: true,
+            //         progress: undefined,
+            //         theme: "dark",
+            //         });
+            // }
         }
         if(formData.tel.length <10)
         {
@@ -156,7 +156,7 @@ const NavBar = () => {
                     </div> */}
                     <ul className="navlinks">
 
-                        {/* <li>
+                        <li>
                             Home
                         </li>
 
@@ -165,7 +165,7 @@ const NavBar = () => {
                         </li>
                         <li>
                             Contact
-                        </li> */}
+                        </li>
                         <li onClick={toggle}>
                             Login
                         </li>
@@ -241,7 +241,7 @@ const NavBar = () => {
                 ) : ('')
                 }
             </div>
-            <ToastContainer
+            {/* <ToastContainer
             position="top-right"
             autoClose={5000}
             hideProgressBar={false}
@@ -252,7 +252,7 @@ const NavBar = () => {
             draggable
             pauseOnHover
             theme="dark"
-            />
+            /> */}
         </>
     )
 }
