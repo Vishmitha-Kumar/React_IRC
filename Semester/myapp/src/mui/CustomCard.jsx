@@ -1,18 +1,14 @@
 import {Button,Card,CardActions,CardContent,CardMedia,Typography} from '@mui/material'
-import Tree from './Images/Tree.jpg'
 
 function CustomCard(){
     return(
         <Card>
-            <CardMedia>
-                {Tree}
-            </CardMedia>
             <CardContent>
                 <Typography>
                     Nature
                 </Typography>
                 <Typography>
-                    In the embrace of Nature
+                In the embrace of nature, the symphony of chirping birds and the gentle caress of a breeze paint a serene canvas of tranquility.
                 </Typography>
             </CardContent>
             <CardActions>
